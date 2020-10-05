@@ -23,9 +23,6 @@ const Premium = ({ isPremium }) => {
         bottom: 2em;
         right: 4em;
     `;
-    const styleBtnColor = css`
-        background-color: red;
-    `;
 
     return isPremium ? (
         <article css={style}>
@@ -42,7 +39,7 @@ const Premium = ({ isPremium }) => {
             <p css={styleText}>
                 Unlock premium features <br /> only for $9.99 per month.
             </p>
-            <Button txt="Go Premium" />
+            <Button txt="Go Premium" type="secondary" cornerSize="large" />
             <img css={styleImg} src={brainbook} alt="" />
         </article>
     );

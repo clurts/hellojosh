@@ -1,0 +1,25 @@
+{
+    "newest": [
+        {
+            "id": "bbc5f0c6-d64d-4cfc-8359-0baca995e692",
+            "name": "Cheese Tasting",
+            "teacher": "Brian Emilius",
+            "duration": "7h 20min",
+            "rating": 4.9
+        },
+        {
+            "id": "5c1b8e92-8097-4ba7-83f3-2523bc383249",
+            "name": "Build a PWA",
+            "teacher": "Troels Rasmussen",
+            "duration": "12h 55min",
+            "rating": 4.7
+        },
+        {
+            "id": "3baae2c2-a803-488d-bee2-a105821ee8a8",
+            "name": "Advanced WordPress",
+            "teacher": "Niels Harbo",
+            "duration": "7h 40min",
+            "rating": 4.6
+        }
+    ]
+}

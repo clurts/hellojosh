@@ -1,0 +1,26 @@
+{ 
+    "popular": [
+        {
+            "id": "33fdc520-ee6d-4df8-bb82-1cf3a3ce5034",
+            "name": "React like a Pro",
+            "teacher":"Carsten Lund",
+            "duration": "7h 20min",
+            "rating": 4.9
+        },
+        {
+            "id": "79283ce3-b7dd-4065-9694-6ea34efae1af",
+            "name": "API's for beginners",
+            "teacher":"Carsten Lund",
+            "duration": "3h 15min",
+            "rating": 4.7
+        },
+        {
+            "id": "346c2882-78fc-4bc2-9c4f-c9df94d28397",
+            "name": "Automate with Gulp",
+            "teacher":"Carsten Lund",
+            "duration": "7h 40min",
+            "rating": 4.6
+        }
+        
+    ]
+}

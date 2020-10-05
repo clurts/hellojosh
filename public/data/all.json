@@ -1,0 +1,39 @@
+{ 
+    "all": [
+        {
+            "id": "a12c1c3e-bc56-4535-a97f-2bc7f7e8bf80",
+            "name": "Learn Figma",
+            "teacher":"Christopher Morgan",
+            "duration": "6h 30min",
+            "rating": 4.9
+        },
+        {
+            "id": "c3087fff-caf0-4e96-bbfb-21633ee5cfd6",
+            "name": "Analog Photography",
+            "teacher":"Gordon Norman",
+            "duration": "3h 15min",
+            "rating": 4.7
+        },
+        {
+            "id": "fe1be40a-b5f8-44e0-aebb-c593b5ebf2a7",
+            "name": "Mastering Instragram",
+            "teacher":"Sophie Gill",
+            "duration": "7h 40min",
+            "rating": 4.6
+        },
+        {
+            "id": "5b8a8bac-b661-4dff-baaa-c357e9308f99",
+            "name": "Basics of Drawing",
+            "teacher":"Jean Tate",
+            "duration": "11h 30min",
+            "rating": 4.8
+        },
+        {
+            "id": "ab5f17fb-72e2-45b6-9dae-97f32f003040",
+            "name": "Photoshop Essence",
+            "teacher":"David Green",
+            "duration": "5h 35min",
+            "rating": 4.7
+        }
+    ]
+}

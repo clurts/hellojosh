@@ -1,0 +1,25 @@
+{
+    "top": [
+        {
+            "id": "58f43ace-9990-4796-9567-6b03b617453d",
+            "name": "HTML masterclass",
+            "teacher": "Carsten Lund",
+            "duration": "7h 20min",
+            "rating": 5.0
+        },
+        {
+            "id": "2263bf18-0ef8-43a1-98e8-78d4507b3766",
+            "name": "Animate the Web",
+            "teacher": "Carsten Lund",
+            "duration": "8h 45min",
+            "rating": 5.0
+        },
+        {
+            "id": "7f1f33fc-efa5-4bc4-b4f6-09a5b4e6e3d2",
+            "name": "Mastering CSS",
+            "teacher": "Carsten Lund",
+            "duration": "10h 20min",
+            "rating": 5.0
+        }
+    ]
+}

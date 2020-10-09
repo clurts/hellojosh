@@ -4,18 +4,33 @@ import User from "./components/User";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faFire, faClock } from "@fortawesome/free-solid-svg-icons";
-import { faBell } from "@fortawesome/free-regular-svg-icons";
+import {
+    faBell,
+    faArrowAltCircleLeft,
+    faArrowAltCircleRight,
+} from "@fortawesome/free-regular-svg-icons";
 import "./App.css";
+import UserContextProvider from "./contexts/UserContext";
 import Testview from "./views/Testview";
-
-library.add(faFire, faClock, faReact, faBell);
+import Home from "./views/Home"
+library.add(
+    faFire,
+    faClock,
+    faReact,
+    faBell,
+    faArrowAltCircleLeft,
+    faArrowAltCircleRight
+);
 
 function App() {
     return (
-        <Router>
-            <User path="/:firstname/*" />
-            <Testview path="testview" />
-        </Router>
+        <UserContextProvider>
+            <Router>
+                <User path="/*" />
+                <Home path="home/*" />
+                <Testview path="testview" />
+            </Router>
+        </UserContextProvider>
     );
 }
 

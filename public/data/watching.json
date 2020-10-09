@@ -1,0 +1,22 @@
+{
+    "watching": [
+        {
+            "id": "bbc5f0c6-d64d-4cfc-8359-0baca995e692",
+            "name": "I'm a Cat Fan",
+            "teacher": "Mark Eriksen",
+            "completion": "100"
+        },
+        {
+            "id": "5c1b8e92-8097-4ba7-83f3-2523bc383249",
+            "name": "Build a PWA",
+            "teacher": "Troels Rasmussen",
+            "completion": "23"
+        },
+        {
+            "id": "3baae2c2-a803-488d-bee2-a105821ee8a8",
+            "name": "Advanced WordPress",
+            "teacher": "Niels Harbo",
+            "completion": "100"
+        }
+    ]
+}

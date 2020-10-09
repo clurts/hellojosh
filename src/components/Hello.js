@@ -2,7 +2,8 @@
 import { css, jsx } from "@emotion/core";
 import userDrawing from "../img/user.svg";
 
-const Hello = ({ firstname }) => {
+const Hello = ({ user }) => {
+
     const style = css`
         height: 10em;
         padding-left: 2em;
@@ -27,7 +28,7 @@ const Hello = ({ firstname }) => {
     `;
     return (
         <article css={style}>
-            <h1 css={styleHeadline}>Hello {firstname}!</h1>
+            <h1 css={styleHeadline}>Hello {user}!</h1>
             <p css={styleGreeting}>It’s good to see you again.</p>
             <img
                 src={userDrawing}

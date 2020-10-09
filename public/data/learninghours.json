@@ -1,0 +1,67 @@
+{
+    "user": {
+        "id": "18a6bfde-7cef-4ee0-9469-ee3431e1ff37",
+        "username": "joshtheniell",
+        "firstname": "Josh",
+        "lastname": "McNiell",
+        "messages": {
+            "unread": 1,
+            "total": 56
+        },
+        "premiumUser": false,
+        "courseStatus": [
+            {
+                "label": "courses completed",
+                "count": 11
+            },
+            {
+                "label": "courses in progress",
+                "count": 4
+            }
+        ],
+        "stats": [
+            {
+                "day": "mon", 
+                "hrs": 0
+            },{
+                "day": "tue", 
+                "hrs": 1.5
+            },{
+                "day": "wed", 
+                "hrs": 2.5
+            },{
+                "day": "thu",
+                "hrs": 1
+            },{
+                "day": "fri",
+                "hrs": 4
+            },{
+                "day": "sat",
+                "hrs": 3
+            },{
+                "day": "sun",
+                "hrs": 2
+            }
+        ],
+        "watching": [
+            {
+                "id": "bbc5f0c6-d64d-4cfc-8359-0baca995e692",
+                "name": "I'm a Cat Fan",
+                "teacher":"Mark Eriksen",
+                "completion": "85"
+            },
+            {
+                "id": "5c1b8e92-8097-4ba7-83f3-2523bc383249",
+                "name": "Build a PWA",
+                "teacher":"Troels Rasmussen",
+                "completion": "23"
+            },
+            {
+                "id": "3baae2c2-a803-488d-bee2-a105821ee8a8",
+                "name": "Advanced WordPress",
+                "teacher":"Niels Harbo",
+                "completion": "45"
+            }     
+        ]
+    }
+}

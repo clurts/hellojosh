@@ -4,8 +4,9 @@ import { jsx } from "@emotion/core";
 import CourseCounter from "../components/CourseCounter";
 import Course from "../components/Course";
 import Notification from "../components/Notification";
-import Hello from "../components/Hello";
 import Premium from "../components/Premium";
+import MyLineChart from "../components/MyLineChart";
+import RenderLineChart from "../components/RenderLineChart";
 
 const Testview = () => {
     const [msg, setMsg] = useState(1);
@@ -18,12 +19,13 @@ const Testview = () => {
             <br />
             <br />
             <br />
+            <MyLineChart />
             <br />
             <br />
             <br />
             <br />
+            <RenderLineChart />
             <br />
-            <Hello firstname="Josh" />
             <br />
             <br />
             <input

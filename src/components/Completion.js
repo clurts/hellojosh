@@ -1,37 +1,39 @@
 /** @jsx jsx */
-import { css, jsx } from "@emotion/core";
 import { useState, useEffect } from "react";
+import { css, jsx } from "@emotion/core";
+
 const Completion = ({ percentage }) => {
-    const [comClass, setComClass] = useState(null);
+    const [progress, setProgress] = useState(null);
 
     useEffect(() => {
-        if (percentage <= 99) setComClass("threequarters");
-        if (percentage <= 74) setComClass("half");
-        if (percentage <= 25) setComClass("onequarter");
-        if (percentage == 0) setComClass(null);
-    }, [comClass, percentage]);
+        if (percentage < 101) setProgress("");
+        if (percentage < 100) setProgress("threequarters");
+        if (percentage < 75) setProgress("half");
+        if (percentage < 50) setProgress("onequarter");
+        if (percentage < 1) setProgress("notstarted");
+    }, [percentage]);
+
     const style = css`
         width: 40px;
         height: 40px;
         box-sizing: border-box;
-        border-width: 2px;
-        border: solid black;
-        transform: rotate(45deg);
+        border: 2px solid black;
         border-radius: 50%;
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        transform: rotate(-45deg);
 
         &.threequarters {
             border-top-color: transparent;
         }
         &.half {
             border-top-color: transparent;
-            border-right-color: transparent;
+            border-left-color: transparent;
         }
         &.onequarter {
             border-top-color: transparent;
-            border-right-color: transparent;
+            border-left-color: transparent;
             border-bottom-color: transparent;
         }
         &.notstarted {
@@ -40,10 +42,11 @@ const Completion = ({ percentage }) => {
     `;
     const stylePercentage = css`
         font-size: 0.8125rem;
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
     `;
+
     return (
-        <div css={style} className={comClass && comClass}>
+        <div css={style} className={progress && progress}>
             <p css={stylePercentage}>{percentage}%</p>
         </div>
     );

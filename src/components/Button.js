@@ -7,7 +7,6 @@ const Button = ({ txt, type, cornerSize }) => {
         secondary: "red",
         succes: "green",
     };
-    console.log(variants[type]);
     const corners = {
         small: "0.125rem",
         medium: "0.25rem",

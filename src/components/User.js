@@ -1,15 +1,14 @@
 /** @jsx jsx */
-import { css, jsx } from "@emotion/core";
+import { jsx } from "@emotion/core";
 import { Fragment } from "react";
 import Courses from "./Courses";
 import Hello from "./Hello";
 import MyCourses from "./MyCourses";
 
-const User = ({ firstname }) => {
-    console.log(firstname);
+const User = () => {
     return (
         <Fragment>
-            <Hello firstname={firstname} />
+            <Hello />
             <MyCourses />
             <Courses />
         </Fragment>
